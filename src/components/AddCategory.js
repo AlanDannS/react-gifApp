@@ -24,6 +24,7 @@ const AddCategory = ({setCategories}) => {
                     type="text"
                     value={inputValue}
                     onChange={e => handleInputChange(e)}
+                    placeholder="Buscar"
                 />
             </form>
     );
